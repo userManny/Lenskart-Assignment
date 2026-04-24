@@ -25,13 +25,13 @@ It focuses on clean UI structure, modular styling, and dynamic rendering using J
 ---
 
 ## Project Structure
+```
 project/
 |-- index.html      # Main HTML structure
 |-- style.css       # Styling for all sections
 |-- script.js       # Dynamic rendering & carousel logic
 `-- images/         # Image assets (img1 → img10)
-
-
+```
 ---
 
 ## Sections Overview
