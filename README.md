@@ -27,10 +27,10 @@ It focuses on clean UI structure, modular styling, and dynamic rendering using J
 ## Project Structure
 project/
 │
-├── index.html # Main HTML structure
-├── style.css # Styling for all sections
-├── script.js # Dynamic rendering & carousel logic
-└── images/ # Image assets (img1 → img10)
+├── index.html      # Main HTML structure
+├── style.css       # Styling for all sections
+├── script.js       # Dynamic rendering & carousel logic
+└── images/         # Image assets (img1 → img10)
 
 
 ---
@@ -68,26 +68,22 @@ project/
 ---
 
 ## JavaScript Functionality
-
 ### Carousel (crawsel function)
-
 - Controls visible slides using `currentIndex`
 - Supports circular navigation using modulo operator
-
-```js
 currentIndex = (currentIndex + 1) % carouselData.length;
 
 ### Dot Navigation
-Dots are created dynamically
-Clicking a dot moves to that slide
+- Dots are created dynamically
+- Clicking a dot moves to the corresponding slide
 
 ### Card Rendering
-Cards are generated dynamically using array data
-Improves scalability and maintainability
+- Cards are generated dynamically using array data
+- Improves scalability and maintainability
 
-Learning Outcomes
-Building structured UI layouts
-Writing clean and maintainable CSS
-Creating reusable JavaScript functions
-Implementing a carousel from scratch
-Working with dynamic DOM rendering
+## Learning Outcomes
+- Building structured UI layouts
+- Writing clean and maintainable CSS
+- Creating reusable JavaScript functions
+- Implementing a carousel from scratch
+- Working with dynamic DOM rendering
